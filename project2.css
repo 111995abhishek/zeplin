@@ -1,0 +1,40 @@
+.A-box{
+    height: 30px;
+    width: 30px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#A{
+    font-weight: bold;
+    color:white;
+    justify-content: center;
+
+}
+header{
+    margin-left: 135px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+    height: 70px;
+    letter-spacing: -0.05px;
+    
+}
+.search-box{
+    width: 510px;
+    height: 30px;
+    border:1px solid grey;
+    border-radius: 5px;
+    margin-left: 30px;
+    
+}
+.search-container{
+    margin-top: 7px;
+    margin-left: 10px;
+    margin-bottom:7px;
+    font-size: 12px;
+    color: grey;
+}
+
