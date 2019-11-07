@@ -1,0 +1,131 @@
+.outer-circle{
+    width: 70px;
+    height: 70px;
+    background-color: gold;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+}
+.inner-circle{
+    width:56px;
+    height: 56px;
+    background-color: white;
+    border-radius: 50%;
+    justify-content: center;
+    
+    
+}
+body{
+    margin:60px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+}
+.name{
+    font-size: 28px;
+    font-weight: 900;
+    color: gray;
+    line-height: 25.2px;
+    letter-spacing: -0.05px;
+    margin-left: 23.6px;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-evenly;
+    flex: 1;
+    width: 533px;
+    height: 19px;
+
+    
+
+}
+
+.part-1{
+    width:50%;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.part-2 a{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 17.1px;
+    color: #777d8b;
+    text-decoration: none;
+
+    
+}
+.menu-bar div{
+    width: 21.1px;
+    height: 3.9px;
+    background-color: #cdd2e1;
+    margin: 3.1px 0;
+}
+.part-2{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 29px;
+
+}
+#bodydecoration{
+    width: 100%;
+    margin-top: 58px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+#body-1  {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 100px;
+ 
+    background-color: #ffffff;
+
+    
+}
+#body-1 p {
+    font-size: 13.2px;
+    letter-spacing: 0.1px;
+    color: #686d79;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+#giveaway{
+    font-size: 72.4px;
+    font-weight: 800;
+    line-height: 64px;
+    letter-spacing: -0.05px; 
+    color: #535c64;
+    margin-bottom: 39.6px;
+}
+.body_2{
+witdh:50%;
+height:678px;
+width:678px;
+margin-bottom:45px;
+display: flex;
+justify-content: flex-end;
+margin-left:701px;
+margin-top: 159px;
+}

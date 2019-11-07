@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+body{
+    
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background: url(bg.jpg) no-repeat;
+    background-size: cover;
+    padding: 45px;
+    padding-top: 33px;
+
+}
+header {
+    height: 75px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+#menu{
+    display: flex;
+    flex-direction: row;
+}
+#nav{
+    display: flex;
+    flex-direction: row;
+    height: 19px;
+    font-size: 16px;
+    align-content: flex-end;
+    letter-spacing: 1.5px;
+}
+#menu a {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 17.1px;
+    margin-left: 30px;
+    color: white;
+    text-decoration: none;
+
+}
+#body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.body-content {
+    width: 1170px;
+    display: flex;
+    flex-direction: column;
+}
+.mid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.para {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-top: 18px;
+    width: 890px;
+    height: 68px;
+    font-size: 22px;
+    line-height: 34px;
+    color: #d0d0d0;
+    margin-top: 18px;
+}
+#seasons{
+    margin-top: 151px;
+    font-weight: 800;
+    font-size: 120px;
+    line-height: 110px;
+    letter-spacing: -2.77px;
+    width: 587px;
+    height: 220px;
+    color: white;
+
+
+}
+#video{
+    padding-top: 210px;
+}
+.box {
+    display: flex;
+    flex-direction: row;
+    height: 210px;
+
+    justify-content:space-between;
+    margin-top: 46px;
+}
+.box1{
+    height: 210px;
+    width: 368px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} 
+ #img1{
+     margin-top: 125px;
+     margin-left: 29px;
+
+    
+}
+#season{
+    
+    font-weight: 800;
+    font-size: 36px;
+    letter-spacing: -2px;
+    color: white;
+    margin-top: 122px;
+    margin-right:100px;
+    margin-left:20px;
+}
+#inindia{
+    font-size: 18px;
+
+}
+
+#footer {
+    height: 73px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px #fff solid;
+    border-bottom: 2px #fff solid;
+    margin-top: 137px;
+}
+#footer-content {
+    display: flex;
+    flex-direction: row;
+    height: 18px;
+    justify-content: space-between;
+    
+}
+#footer a{
+    margin-left:50px;
+    text-decoration: none;
+    color: #aaaaaa;
+    font-weight: 700;
+    font-size: 14px;
+}
+.copyright {
+    padding-left: 29px;
+    height: 73px;
+    border-left: 2px solid white;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 400;
+    font-size: 14px;
+}
+</style>
+<body>
+    
+    <header>
+            <div id= "logo">
+                    <img src="logo.png">
+
+            </div>
+            <div>
+                <div id=menu>
+                        <div id="nav">
+                                <div><a href="#">About Us</a></div>
+                                <div><a href="#">videos </a></div>
+                                <div><a href="#">Countries</a></div>
+                                <div><a href="#">Contact us</a></div>
+                            </div>
+                </div>
+            </div>
+    </header>
+    <div id="body">
+    
+
+    <div class="body-content">
+        <div class="mid">
+                <div id ="seasons"> SEASONS<br>IN INDIA</div>
+                <div id ="video"><img src="play-button-bigger@3x.png " height="120px" width="120px" ></div>
+
+        </div>
+        <div class="para">
+            <div class="para-content">India is situated in the Control part of Asia in mid-attitude at a great<br>distance from the ocean. All the person continential climate</div>
+        
+
+        </div>
+        <div class="box">
+                <div class="box1" style="background:url(summer.jpg) no-repeat;">
+                        <img id="img1" src="play-button@3x.png" width="58px" height="58px">
+                            <div id="season">
+                              SUMMMER
+                                <div id="inindia">IN INDIA</div>
+                            </div>
+                </div>        
+                <div class ="box1"style="background: url(autuman.jpg) no-repeat;" > 
+                        <img id="img1" src="play-button@3x.png" width="58px" height="58px">
+                        <div id="season" >
+                            AUTUMN
+                            <div id="inindia">IN INDIA</div>
+                        </div>
+                </div>
+                    
+                <div class ="box1"  style="background: url(winter.jpg) no-repeat;">
+                    <img id="img1" src="play-button@3x.png" width="58px" height="58px">
+                        <div id="season">WINTER
+                                
+        
+                                <div id="inindia">IN INDIA</div>
+                        </div>
+                </div>
+
+        </div>
+        <div id="footer">
+                <div id="footer-content">
+                        <div  id ="Countries" style="color: white;">Countries :</div>
+                        <div><a href="#" >INDIA</a></div>
+                        <div><a href="#">SWITZERLAND</a></div>
+                        <div><a href="#">SOUTHAFRICA</a></div>
+                        <div><a href="#">AUSTRALIA</a></div>
+                        <div><a href="#">INDONESIA</a></div>
+                </div>
+                 <div class="copyright">@All rights reveserved</div>
+
+    </div>
+</div>
+</body>
+</html>
