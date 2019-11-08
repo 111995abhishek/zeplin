@@ -54,3 +54,150 @@ body{
     flex-direction: row;
     justify-content: space-evenly;
 }
+.body-1{
+    width:100%;
+    height:550px;
+    display:flex;
+    flex-direction: row;
+
+
+}
+.part1{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: cyan;
+    align-items: space-evenly;
+    border: 1px solid blue;
+    flex: 1;
+
+}
+.part2{
+    background-image: url(bedroom.png);
+    height:550px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 1;
+
+    
+    
+}
+.text-box{
+    display: flex;
+    font-size: 36px;
+    line-height: 50px;
+    margin-left: 135px;
+    border: 1px solid brown;
+    font-weight: normal;
+}
+.search-box1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 135px;
+    border: 1px solid black;
+    
+}
+
+.navigation1{
+    display:flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+    
+}
+.all-properties{
+    width:104px;
+    height:30px;
+    background-color:#25df8f;
+    font-size:14px;
+    color:white;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    border-radius: 5px;
+    
+}
+.home{
+    width:65px;
+    height:30px;
+    background-color:#c1c8d7;
+    font-size:14px;
+    color:white;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    border-radius: 5px;
+
+
+}
+.experiences{
+    width:97px;
+    height:30px;
+    background-color:#c1c8d7;
+    font-size:14px;
+    color:white;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    border-radius: 5px;
+
+
+}
+.restaurant{
+    width:98px;
+    height:30px;
+    background-color:#c1c8d7;
+    font-size:14px;
+    color:white;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    border-radius: 5px;
+
+
+}
+.body-2{
+    display:flex;
+    flex-direction: column;
+    align-items:space-evenly;
+    justify-items: space-evenly;
+    flex:1
+}
+.header{
+    display:flex;
+    flex-direction: row;
+    font-size: 24px;
+    color:#949fb7;
+    justify-content:space-between;
+    margin-left:135px;
+}
+.pics{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    margin-left: 135px;
+    flex:1;
+    
+    
+}
+.pics1{
+    height:190px;
+    display:flex;
+    background-image:"image.png";
+
+
+} 
+.pics2{
+    height:190px;
+    display:flex;
+    background-image:"image1.png";
+}
+.pics3{
+    height:190px;
+    display:flex;
+    background-image:"image2.png";
+}
+.pics4{
+    height:190px;
+    display:flex;
+    background-image:"image3.png";
+}
